@@ -38,7 +38,7 @@ const Reviews = () => {
   });
 
   return (
-    <section>
+    <section className="container">
       <Review key={data[index].id} {...data[index]} />
       <div className="btn-container">
         <span className="previous" onClick={previous}>
